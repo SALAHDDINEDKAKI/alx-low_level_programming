@@ -3,6 +3,8 @@
 	/**
  	* puts as function
  	*
+	* main - entry point
+	*
  	* not allowed to use printf
  	*
  	* return 0 => call the func (puts)
