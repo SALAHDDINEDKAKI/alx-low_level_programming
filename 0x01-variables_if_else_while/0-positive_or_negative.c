@@ -2,9 +2,9 @@
 #include <time.h>
 /**
  *
- * main - generate random numbers to detect -ve or +ve
+ * main - check if n is a zero, postitive or negative
  *
- * Return: equal (0)
+ * Return: always 0 (succ)
  */
 
 int main(void)
@@ -14,13 +14,13 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0) {
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0) {
-		printf("%d is zero");
+		printf("%d is zero\n", n);
 	}
 	else (n < 0) {
-		printf("%d is positive");
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
