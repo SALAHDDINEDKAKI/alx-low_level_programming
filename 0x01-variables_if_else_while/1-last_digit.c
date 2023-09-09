@@ -2,6 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - checkes if n is greater than 5,
+ * equal to 0 and less than 6 and not 0.
+ *
+ * Return: always 0 (success)
+ */
 int main(void)
 {
 		int n;
