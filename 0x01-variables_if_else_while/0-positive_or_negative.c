@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
+ * main - This function checks if n is zero, positive, or negative.
  *
- * main - check if n is a zero, postitive or negative
- *
- * Return: always 0 (success)
- *
+ * Return: Always 0 (success).
  */
 
 int main(void)
