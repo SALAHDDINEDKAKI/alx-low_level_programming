@@ -7,19 +7,15 @@
  */
 int main(void)
 {
-	char letter[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char letter[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 53; i++)
+	for (i = 0; i < 26; i++)
 	{
 		if (letter[i] == 'q' || letter[i] == 'e')
 		{
 			continue;
 		}
-		else if (letter[i] == 'Q' || letter[i] == 'E')
-                {
-                        continue;
-                }
 		else
 		{
 			putchar(letter[i]);
