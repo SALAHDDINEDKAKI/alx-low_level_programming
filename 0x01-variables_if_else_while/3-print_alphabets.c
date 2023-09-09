@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char letter[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char letter[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 53; i++)
 	{
 		if (letter[i] == 'q' || letter[i] == 'e')
 		{
