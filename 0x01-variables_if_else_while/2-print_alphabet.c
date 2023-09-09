@@ -2,7 +2,7 @@
 
 /**
  * main - English alphabets are lowercase
- *
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
