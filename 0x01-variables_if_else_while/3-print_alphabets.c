@@ -7,20 +7,28 @@
  */
 int main(void)
 {
-	char letter[26] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char letter[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (letter[i] == 'q' || letter[i] == 'e')
+		if (letter == 'q' || letter == 'e')
 		{
 			continue;
 		}
-		else
-		{
-			putchar(letter[i]);
-		}
+		putchar(letter);
 	}
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+        {
+                if (letter == 'Q' || letter == 'E')
+                {
+                        continue;
+                }
+                putchar(letter);
+        }
+
 	putchar('\n');
+
 	return (0);
 }
