@@ -1,7 +1,7 @@
 #include "main.h"
 
-/**qdzdq
-  * _print_rev_recursion - prints a string in reverse.
+/** 
+  * _print_rev_recursion - prints strings in reverse form.
   * @s: a pointer to an array string
   * Return: Always 0 (success)
   */
