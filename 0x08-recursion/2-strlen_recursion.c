@@ -1,8 +1,8 @@
 
 #include "main.h"
 
-/**saasu
-  * _strlen_recursion - returns the length of a string.
+/**
+  * _strlen_recursion - returns the length of a strings.
   * @s: pointer to an array string
   * return: the lenght of a string
   */
