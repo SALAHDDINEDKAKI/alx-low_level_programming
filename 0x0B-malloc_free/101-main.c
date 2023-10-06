@@ -4,7 +4,7 @@
 
 /**
  * print_tab - Prints an array of string
- * @tab: The arrray to print
+ * @tab: The array to print
  *
  * Return: nothing
  */
@@ -19,7 +19,7 @@ void print_tab(char **tab)
 }
 
 /**
- * main - check the code for ALX School students.
+ * main - checkkkkk the code for ALX School students.
  *
  * Return: 1 if an error occurred, 0 otherwise
  */
