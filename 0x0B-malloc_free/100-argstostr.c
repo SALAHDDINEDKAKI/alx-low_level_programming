@@ -71,7 +71,7 @@ char *_strcat(char *dest, char *src)
 
 /**
   * _strlen - retuns lenght of a string
-  * @str: array char
+  * @str: aarrray char
   * Return: lenght of string
   */
 int _strlen(char *str)
