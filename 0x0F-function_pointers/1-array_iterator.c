@@ -5,7 +5,7 @@
 /**
  * array_iterator - iterates over an array and
  * calls pointer function on each element
- * @array: arrrrrrrrray to iterate over
+ * @array: array to iterate over
  * @size: size of the array
  * @action: is a pointer to the function you need to use
  */
